@@ -11,7 +11,7 @@ export default function LangSelect() {
 	};
 
 	return (
-		<select className="w-12 text-black" onChange={handleLanguageChange}>
+		<select className="w-12 text-black relative left-64" onChange={handleLanguageChange}>
 			<option id="lang" value="en">
 				EN
 			</option>

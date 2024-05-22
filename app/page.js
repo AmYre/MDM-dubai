@@ -15,15 +15,17 @@ export default function Home() {
 			<main className="flex min-h-screen flex-col">
 				<header className="h-[512] flex flex-col bg-header bg-cover bg-no-repeat text-white z-[0]">
 					<LangSelect />
-					<div className="relative flex justify-between p-8">
-						<h1 className="text-7xl font-bold drop-shadow-shad">INDEX</h1>
-						<Image src="/losange.png" className="w-[150px] md:w-[250px] absolute left-[40vw] top-[45px] z-[-1]" alt="DUBAI WORLD TRADE CENTRE" width={512} height={512} priority />
-						<Link href="https://www.marcmaison.com/">
-							<Image src="/logo.png" className="max-w-[100px] md:max-w-[150px]" alt="Marc Maison Logo" width={512} height={512} priority />
-						</Link>
-					</div>
-					<div className="text-center text-2xl font-bold drop-shadow-shad">4 - 6 JUNE 2024 | 10:00 : 18:00 DAILY</div>
-					<div className="text-center text-2xl font-bold drop-shadow-shad mt-8 mb-8">DUBAI WORLD TRADE CENTRE</div>
+					<a href="https://hospitality-interiordesignshow.com/newfront/exhibitor/galerie-marc-maison" target="_blank" rel="noopener noreferrer">
+						<div className="relative flex justify-between p-8">
+							<h1 className="text-7xl font-bold drop-shadow-shad">INDEX</h1>
+							<Image src="/losange.png" className="w-[150px] md:w-[250px] absolute left-[40vw] top-[45px] z-[-1]" alt="DUBAI WORLD TRADE CENTRE" width={512} height={512} priority />
+							<Link href="https://www.marcmaison.com/">
+								<Image src="/logo.png" className="max-w-[100px] md:max-w-[150px]" alt="Marc Maison Logo" width={512} height={512} priority />
+							</Link>
+						</div>
+						<div className="text-center text-2xl font-bold drop-shadow-shad">4 - 6 JUNE 2024 | 10:00 : 18:00 DAILY</div>
+						<div className="text-center text-2xl font-bold drop-shadow-shad mt-8 mb-8">DUBAI WORLD TRADE CENTRE</div>
+					</a>
 				</header>
 				<section className="w-full flex justify-center">
 					<div className="max-w-[1280px]">
@@ -37,7 +39,7 @@ export default function Home() {
 							</Link>
 							<div className="absolute right-0 w-[50vw] border-t-[3px] border-t-[#E0CDA9]"></div>
 						</div>
-						<div className="flex flex-col gap-6 mt-8">
+						<div className="flex flex-col gap-6 mt-8 uppercase text-center font-georgia">
 							<div className="flex flex-wrap justify-center items-center gap-6">
 								<Link href="https://www.marcmaison.com/antique-lightings-lamps-chandelier" className="glass">
 									<Image src="/light.png" className="" alt="antique lightings lamps chandelier" width={250} height={250} />

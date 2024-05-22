@@ -23,6 +23,10 @@ module.exports = {
 			},
 			fontFamily: {
 				bodoni: "Libre Bodoni;",
+				georgia: "Georgia;",
+			},
+			direction: {
+				rtl: "rtl",
 			},
 		},
 	},
